@@ -1,0 +1,39 @@
+navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px;
+}
+
+.navbar-title {
+    font-size: 2rem;
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items > *, .navbar-button {
+    margin: 0 50px 0 0;
+}
+
+.navbar-items > a,
+.navbar-button {
+    color: var(--grayish-violet);
+    padding: 10px;
+    font-weight: 700;
+}
+
+.navbar-authentication-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    background: var(--cyan);
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+
