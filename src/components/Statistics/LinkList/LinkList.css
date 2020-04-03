@@ -1,0 +1,6 @@
+.links {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    width: calc(100% - 300px);
+}

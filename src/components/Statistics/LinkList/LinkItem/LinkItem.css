@@ -1,0 +1,55 @@
+.link-item {
+    height: 60px;
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+
+    /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.link-item-url {
+    width: 69%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.link-item a {
+    color: var(--dark-violet);
+    font-size: .9rem;
+}
+
+.link-item-hash {
+    width: 26%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link-item-hash a {
+    color: var(--cyan);
+    font-size: .9rem;
+}
+
+.copy-btn {
+    font-weight: 700;
+    background: var(--cyan);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+.copy-btn.copied {
+    background: var(--dark-violet);
+}

@@ -1,11 +1,11 @@
-navbar {
+nav {
     display: flex;
     justify-content: space-between;
     margin: 40px 150px;
 }
 
-.navbar-title {
-    font-size: 2rem;
+nav a:hover {
+    color: var(--very-dark-violet);
 }
 
 .navbar-items {
@@ -13,8 +13,13 @@ navbar {
     align-items: center;
 }
 
-.navbar-items > *, .navbar-button {
-    margin: 0 50px 0 0;
+.navbar-logo {
+    margin-right: 20px;
+}
+
+.navbar-items > a {
+    margin: 0 20px;
+    padding: 0 !important;
 }
 
 .navbar-items > a,
@@ -22,11 +27,16 @@ navbar {
     color: var(--grayish-violet);
     padding: 10px;
     font-weight: 700;
+    font-size: .9rem;
 }
 
 .navbar-authentication-buttons {
     display: flex;
     justify-content: center;
+}
+
+.login {
+    margin-right: 30px;
 }
 
 .signup {
@@ -37,3 +47,6 @@ navbar {
     border-radius: 30px;
 }
 
+.signup:hover {
+    color: white;
+}

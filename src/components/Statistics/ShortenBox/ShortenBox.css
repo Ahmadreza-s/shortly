@@ -1,0 +1,56 @@
+.shorten-box {
+    position: absolute;
+    left: 150px;
+    background: var(--dark-violet);
+    width: calc(100% - 300px);
+    height: 150px;
+    top: -75px;
+    border-radius: 8px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.input-box {
+    width: 70%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.input-box input {
+    border-radius: 8px;
+    border: none;
+    font-size: 1.3rem;
+    padding: 15px 15px 15px 30px;
+    outline: none;
+}
+
+.input-box input::placeholder {
+    color: var(--grayish-violet);
+}
+
+.shorten-box button {
+    font-weight: 700;
+    background: var(--cyan);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    border: none;
+    margin-left: 2%;
+    margin-right: 5%;
+    cursor: pointer;
+    width: 18%;
+}
+
+.shorten-box-error {
+    font-style: oblique;
+    font-size: .8rem;
+    font-weight: 400;
+    color: var(--red);
+    padding-top: 10px;
+}
+
