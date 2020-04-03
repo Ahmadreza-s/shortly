@@ -19,8 +19,15 @@ const Statistics = () => {
             hashUrl    : 'rel.ink/' + link.hashid,
             originalUrl: link.url
         });
+        localStorage.setItem('links', JSON.stringify(links));
         return links;
     });
+    React.useEffect(() => {
+        const linksfromLS = localStorage.getItem('links');//links from localstorage
+        console.log(linksfromLS);
+        if (linksfromLS)
+            setLinks(JSON.parse(linksfromLS));
+    }, []);
 
     const advancedStatisticsFeatures = [{
         id      : Math.random(),
