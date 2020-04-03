@@ -1,0 +1,24 @@
+.boost {
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark-violet);
+    background-size: cover;
+}
+
+.boost h2 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.boost button {
+    font-weight: 700;
+    font-size: 1.1rem;
+    background: var(--cyan);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+}
