@@ -53,7 +53,8 @@ const Statistics = () => {
 
                     <div className='advanced-statistics-box-container'>
                         {
-                            advancedStatisticsFeatures.map((c, index) => <div className='advanced-statistics-box'
+                            advancedStatisticsFeatures.map((c, index) => <div key={c.id}
+                                                                              className='advanced-statistics-box'
                                                                               style={{marginTop: `${index * 80}px`}}>
                                 <div className='advanced-statistics-box-circle'>
                                     <img src={c.icon} alt={c.title}/>
