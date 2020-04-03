@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
-import Statisctics from './components/Statistics/Statisctics';
+import Statistics from './components/Statistics/Statistics';
 
 function App() {
     return (
         <>
             <Navbar/>
             <Hero/>
-            <Statisctics/>
+            <Statistics/>
         </>
     );
 }
